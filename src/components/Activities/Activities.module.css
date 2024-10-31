@@ -1,3 +1,7 @@
+.background {
+  background-image: url("Frame 136.png");
+}
+
 .content{
     display: flex;
     background-image: url("Frame 136.png");

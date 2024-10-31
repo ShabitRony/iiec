@@ -2,7 +2,7 @@
 body{
   font-family: "Montserrat", sans-serif;
   background: var(--background);
-  background-image: url("Frame 136.png");
+  /* background-image: url("Frame 136.png"); */
 }
 :root{
   --background:#002B29;
@@ -20,6 +20,10 @@ body{
   align-items: center;
   color: #23B6AE;
 }
+.content p{
+  width: 200px;
+  font-weight:300 ;
+}
 .content h1{
   max-width: 445px;
   height: 132px;
@@ -31,14 +35,24 @@ body{
   gap: 20px;
   justify-content: center;
   align-items: center;
+  transition: 0.3s ease-in-out;
+  transform: scale(1.05);
 }
+.box h1{
+  text-align: center;
+} 
 .box{
 background: var(--light_green);
 color: white;
-max-width: 150px;
+width: 200px;
+height: 180px;
 padding: 20px;
 text-align: center;
 }
-/* .box h1{
-  text-align: center;
-} */
+.box:hover{
+  transition: 0.3s ease-in-out;
+  transform: scale(1.05);
+  /* opacity: 0.8; */
+}
+
+
